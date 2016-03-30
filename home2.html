@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="home.java"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<head>
+<style>
+table, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<p>Click the buttons to create and delete row(s) for the table.</p>
+
+<table name="myTable" id="myTable">
+  
+</table>
+<br>
+<span id="1"></span>
+<input id="tableRowNum" type="text"/>
+<button onclick="myCreateFunction()">Create row</button>
+<button onclick="myDeleteFunction()">Delete row</button>
+<button onclick="myClearallFunction()">Clear all</button>
+<button onclick="mySaveFunction()">Save</button>
+<button onclick="myTestFunction()">Test</button>
+<div id="test">Test</div>
+</body>
+</html>
